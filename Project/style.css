@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'MyCustomFont'; /* The name you choose for the font */
+  src: url('./assets/fonts/FeelingPassionateRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Improves loading performance */
+}
+
+h1 {
+    color:#444745;
+    font-family: 'MyCustomFont', sans-serif; /* Use the custom font */
+}
+
+#footer,#resume {
+    background-color: #A2ADAA;
+
+}
+
+
+.hero-banner {
+    width: 100vw;
+    height: 100vh; /* adjust */
+    background-image: url('./assets/images/bgimg copy.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
